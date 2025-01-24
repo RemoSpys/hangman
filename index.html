@@ -4,20 +4,21 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
-    <title>Hangman</title>
+    <title>Hangman Game</title>
 </head>
 <body>
-    <section id="container">
+    <div id="container">
         <div id="score-container">
-            Lives: <span id="score"></span>
+            Lives: <span id="score">8</span> 
         </div>
-        <div id="word">sõna</div>
+
+        <div id="word"></div>
+
         <div id="alphabet"></div>
-        <div id="guessed-letters-container">
-            Pakutud tähed: <span id="guessed-letters"></span>
-        </div>
-        <button id="reset-button" style="display: none;">Reset</button>
-    </section>
+
+        <img id="hangman-img" src="img/kriips.png" alt="Hangman">
+    </div>
+
     <script src="app.js"></script>
 </body>
 </html>
